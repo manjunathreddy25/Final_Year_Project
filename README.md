@@ -26,21 +26,3 @@ python faceDataset.py
 ```powershell
 python FaceDetection.py
 ```
-
-Notes:
-- The scripts will attempt to download `haarcascade_frontalface_default.xml` if it is not present in the folder.
-- Collected images are saved under `dataset/champ`. The `.gitignore` excludes that folder by default so captured images are not committed.
-
-How to push this project to GitHub (example):
-
-```powershell
-cd "c:\Users\Manjunath\OneDrive\DA PROJECTS\Final_year_project\Day5_Code"
-# Initialize repo (if not already)
-git init
-# Add remote (replace <your-repo-url> with the URL you create on GitHub)
-git remote add origin <your-repo-url>
-# Push to GitHub
-git push -u origin main
-```
-
-If you'd like, I can run the local git init/commit step for you now and then you can provide the remote URL so I can push (I won't push without the remote and your consent).
